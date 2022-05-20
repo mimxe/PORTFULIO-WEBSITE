@@ -50,3 +50,20 @@ section {
 .landing_img img {
     width: 75%;
 }
+
+.second {
+    display: flex;
+}
+
+.second_sec {
+    width: 50%;
+
+}
+
+.second_sec img {
+    width: 60%;
+}
+
+.second_sec_t {
+    width: 50%;
+}
