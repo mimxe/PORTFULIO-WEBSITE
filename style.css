@@ -4,6 +4,41 @@
     padding: 0;
 }
 
+.navbar {
+    background-color: rgb(62, 16, 119);
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
 .first {
     color: rgb(255, 255, 255);
 }
@@ -66,4 +101,54 @@ section {
 
 .second_sec_t {
     width: 50%;
+}
+
+.skill {
+    background-color: rgb(187, 195, 211);
+    color: brown;
+    padding: 10px;
+
+    display: flex;
+
+}
+
+.skill_text {
+    text-align: center;
+    background-color: rgb(187, 195, 211);
+    margin-top: 10px;
+}
+
+.skill_text1 {
+    text-align: center;
+    background-color: rgb(243, 244, 247);
+    margin-top: 10px;
+
+}
+
+.text {
+    padding-top: 5%;
+}
+
+.skill_img {
+    width: 21%;
+    margin: 2%;
+}
+
+.skill_img img {
+    width: 100%;
+}
+
+.Service {
+    background-color: rgb(251, 250, 252);
+    color: black;
+    padding: 10px;
+
+    display: flex;
+}
+
+.shadow {
+    box-shadow: 10px 5px 30px black(5, 5, 5);
+    width: 30%;
+    margin: 2.5%;
+    padding: 10px;
 }
